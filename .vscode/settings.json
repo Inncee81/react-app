@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.gitignore": true,
+        "**/jsconfig.json": true,
+        "**/*.lock": true,
+        "**/*.md": true
+    }
+}
