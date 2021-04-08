@@ -8,8 +8,9 @@ import { Container } from "./app/Container";
 import { Navbar } from "./app/Navbar";
 
 function ReactApp() {
+  console.log('process.env.PUBLIC_URL', process.env.PUBLIC_URL);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Container />
     </BrowserRouter>

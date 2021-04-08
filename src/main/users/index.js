@@ -8,7 +8,7 @@ import { List } from "./List";
 
 export const UserBrowserIndex = () => {
     return (
-        <BrowserRouter basename="/users-browser">
+        <BrowserRouter basename={process.env.PUBLIC_URL + '/users-browser'}>
             <UserContent title="Gestion de Usuarios - Navegacion en Browser" />
         </BrowserRouter>
     )
